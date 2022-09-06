@@ -105,7 +105,7 @@ function showChatHead(){
 		ytLink = "https://youtu.be/dQw4w9WgXcQ";
 		messLink = "https://m.me/zyannayessa";
 	}
-	pauseSound();
+	//pauseSound();
         alert("off");
 	var newAnchor = document.createElement("a");
 	window.open(ytLink);
@@ -124,7 +124,7 @@ function playSound(){
 //Create Function to pause the background song
 function pauseSound(){
 	mySFX = document.getElementById("bgsound");
-	mySFX.puase();
+	mySFX.pause();
 }
 
 
