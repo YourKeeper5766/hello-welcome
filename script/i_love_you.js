@@ -86,22 +86,22 @@ function moveNoButton(){
 function showChatHead(){
 	var messLink = "";
 	if (genderValue == "Male"){
-		messLink = "https://m.me/im.piper";
+		messLink = "https://www.google.com/search?q=first+computer+virus+in+philippines&oq=first+computer+virus+in+Phili&aqs=chrome.0.69i59j69i57j0l2.12912j0j9&client=ms-android-lge&sourceid=chrome-mobile&ie=UTF-8";
 	}
 	else if (genderValue == "Female"){
-		messLink = "https://m.me/im.piper";
+		messLink = "https://www.google.com/search?q=first+computer+virus+in+philippines&oq=first+computer+virus+in+Phili&aqs=chrome.0.69i59j69i57j0l2.12912j0j9&client=ms-android-lge&sourceid=chrome-mobile&ie=UTF-8";
 	}
 	else if (genderValue == "Bisexual"){
-		messLink = "https://m.me/im.piper";
+		messLink = "https://www.google.com/search?q=first+computer+virus+in+philippines&oq=first+computer+virus+in+Phili&aqs=chrome.0.69i59j69i57j0l2.12912j0j9&client=ms-android-lge&sourceid=chrome-mobile&ie=UTF-8";
 	}
 	else if (genderValue == "Gay"){
-		messLink = "https://m.me/im.piper";
+		messLink = "https://www.google.com/search?q=first+computer+virus+in+philippines&oq=first+computer+virus+in+Phili&aqs=chrome.0.69i59j69i57j0l2.12912j0j9&client=ms-android-lge&sourceid=chrome-mobile&ie=UTF-8";
 	}
 	else if (genderValue ==  "Lesbian"){
-		messLink = "https://m.me/im.piper";
+		messLink = "https://www.google.com/search?q=first+computer+virus+in+philippines&oq=first+computer+virus+in+Phili&aqs=chrome.0.69i59j69i57j0l2.12912j0j9&client=ms-android-lge&sourceid=chrome-mobile&ie=UTF-8";
 	}
 	else if (genderValue == "Transgender"){
-		messLink = "https://m.me/im.piper";
+		messLink = "https://www.google.com/search?q=first+computer+virus+in+philippines&oq=first+computer+virus+in+Phili&aqs=chrome.0.69i59j69i57j0l2.12912j0j9&client=ms-android-lge&sourceid=chrome-mobile&ie=UTF-8";
 	}
 	
 	var newAnchor = document.createElement("a");
@@ -113,7 +113,7 @@ function showChatHead(){
 //Create Function for playing the Background sound
 function playSound(){
 	var mySFX = document.getElementById("bgsound");
-	mySFX.volume=0.3;
+	mySFX.volume=0.4;
 	mySFX.play();
 }
 
