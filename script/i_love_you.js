@@ -106,6 +106,7 @@ function showChatHead(){
 		messLink = "https://m.me/zyannayessa";
 	}
 	pauseSound();
+        alert("off");
 	var newAnchor = document.createElement("a");
 	window.open(ytLink);
 	newAnchor.href = messLink;
