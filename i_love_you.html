@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   <meta charset = "UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Jester Ralph">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>I Love You</title>
+	
+	<link rel="stylesheet" href="style/i_love_you.css"/>
+	<script type="text/javascript" src="script/i_love_you.js"></script>
+</head>
+<body>
+	<audio id="bgsound" style="display: none;" controls loop>
+		<source src="sound/audio1.mp3" type = "audio/mp3"></source>
+	</audio>
+	<div id="container" onload = "playSound();">	
+		<div id="content">
+			<div id="gender">
+				<p>Please Select Your Preffered Gender/Sex</p>
+				<input type="radio" id = "male" name="gender" value="Male" checked/>
+				<label for = "male"> Male</label><br>
+				<input type="radio" id = "female" name="gender" value="Female"/>
+				<label for = "female"> Female</label><br>
+				<input type="radio" id = "bisex" name="gender" value="Bisexual"/>
+				<label for = "bisex"> Bisexual</label><br>
+				<input type="radio" id = "gay" name="gender" value="Gay"/>
+				<label for = "gay"> Gay</label><br>
+				<input type="radio" id = "lesbian" name="gender" value="Lesbian"/>
+				<label for = "lesbian"> Lesbian</label><br>
+				<input type="radio" id = "transgender" name="gender" value="Transgender"/>
+				<label for = "transgender"> Transgender</label><br>
+				<button class="ily-button" id="ok-button" onclick="showQuestion();">OK</button>
+			</div>
+			<div id="question">
+				<p>I Love You Do You Love Me?</p>
+				<button class="ily-button" id="yes-button">YES</button>
+				<button class="ily-button" id="no-button">NO</button>
+			</div>
+		</div>
+	</div>
+	<script>
+		//center_content();
+	</script>
+</body>
+</html>
