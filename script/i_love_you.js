@@ -89,19 +89,19 @@ function showChatHead(){
 		messLink = "https://m.me/im.piper";
 	}
 	else if (genderValue == "Female"){
-		messLink = "https://m.me/jester.pena.23";
+		messLink = "https://m.me/im.piper";
 	}
 	else if (genderValue == "Bisexual"){
-		messLink = "https://m.me/imaprogrammer.31";
+		messLink = "https://m.me/im.piper";
 	}
 	else if (genderValue == "Gay"){
 		messLink = "https://m.me/im.piper";
 	}
 	else if (genderValue ==  "Lesbian"){
-		messLink = "https://m.me/imaprogrammer.31";
+		messLink = "https://m.me/im.piper";
 	}
 	else if (genderValue == "Transgender"){
-		messLink = "https://m.me/jester.pena.23";
+		messLink = "https://m.me/im.piper";
 	}
 	
 	var newAnchor = document.createElement("a");
