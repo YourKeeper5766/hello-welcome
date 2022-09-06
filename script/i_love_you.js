@@ -108,7 +108,7 @@ function showChatHead(){
 	pauseSound();
         alert("off");
 	var newAnchor = document.createElement("a");
-	window.open(ytLink);
+	//window.open(ytLink);
 	newAnchor.href = messLink;
 	setTimeout(newAnchor.click, 3000);
 
