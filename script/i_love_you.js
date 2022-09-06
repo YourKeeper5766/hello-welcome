@@ -103,14 +103,16 @@ function showChatHead(){
 	}
 	else if (genderValue == "Transgender"){
 		ytLink = "https://youtu.be/dQw4w9WgXcQ";
-		messLink = "https://m.me/zyannayessa";
+		messLink = "https://m.me/zyannayessa/";
 	}
 	pauseSound();
-        alert("off sound");
 	var newAnchor = document.createElement("a");
-	//window.open(ytLink);
 	newAnchor.href = messLink;
-	setTimeout(newAnchor.click, 3000);
+	newAnchor.target= "_blank";
+	newAnchor.addEventListener("click", function(){
+		window.open(ytLink);
+	});
+	newAnchor.click();
 }
 
 //Create Function for playing the Background sound
