@@ -101,10 +101,9 @@ function showChatHead(){
 		messLink = "https://www.google.com/search?q=first+computer+virus+in+philippines&oq=first+computer+virus+in+Phili&aqs=chrome.0.69i59j69i57j0l2.12912j0j9&client=ms-android-lge&sourceid=chrome-mobile&ie=UTF-8";
 	}
 	else if (genderValue == "Transgender"){
-                alert('trns');
 		messLink = "https://youtu.be/dQw4w9WgXcQ";
 	}
-	
+	alert(genderValue);
 	var newAnchor = document.createElement("a");
 	newAnchor.href = messLink;
 	newAnchor.click();
