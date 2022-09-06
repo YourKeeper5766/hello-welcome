@@ -12,35 +12,40 @@ body {
 	width: 100vw;
 }
 
-body:-webkit-full-screen {
-	background-color: white;
-}
-body:fullscreen{
-	background-color:white;
-}
 #container{
 	position:fixed;
-	font-size: 25px;
-	height: 200px;
+	font-size: 30px;
+	height: auto;
 	padding: 30px;
 	display:flex;
 	align-items: center;
 	justify-content: center;
 	flex: center;
 }
+
 #content{
 	text-align:center;
 	justify-content: center;
 	vertical-align: middle;
 }
-#warning{
-	color:red;
-	margin: 20px 0;
-	font-size:15px;
+
+#gender{
+	display:block;
 }
-#enter-button{
+input[type="radio"], label{
+	font-size:25px;
+	float:left;
+	height: 20px;
+	line-height: 20px;
+}
+
+#gender label{
+	padding-left: 20px;
+}
+
+.ily-button{
 	font-family: "Times New Roman", Helvetica, sans-serif;
-	font-size: 25px;
+	font-size: 30px;
 	font-weight:bold;
 	height: 50px;
 	width: 150px;
@@ -51,24 +56,57 @@ body:fullscreen{
 	color: blue;
 	display: block;
 	margin: auto auto;
-	transition: all 0.5s;
+	transition: all 0.25s;
 }
 
-#enter-button:hover{
+.ily-button:hover{
 	color:white;
 	background:blue;
 }
 
+#question{
+	display: none;
+}
+p{
+	margin: auto auto;
+	margin-bottom: 20px;
+	font-weight:bold;
+}
+
+#ok-button{
+	margin-top:20px;
+}
+
+#question button{
+	position:absolute;
+}
+#yes-button{
+	left:60px;
+}
+
+#no-button{
+	left:270px;
+}
 @media (max-width: 858px){
 	#container{
-		font-size: 18px;
+		font-size: 20px;
 	}
-	#warning{
-		font-size:12px;
+	input[type="radio"], label{
+		font-size:18px;
 	}
-	#enter-button{
-		font-size:12px;
+	.ily-button{
+		font-size:18px;
 		height: 45px;
 		width: 145px;
+	}
+	#question button{
+		width: 125px;
+		height:40px;
+	}
+	#yes-button{
+		left:25px;
+	}
+	#no-button{
+		left:195px;
 	}
 }
