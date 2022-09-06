@@ -8,6 +8,7 @@ var spaceH;
 var spaceW;
 var getContainer;
 var clickCount = -1;
+var mySFX;
 
 function center_content(){
 	getContainer = document.getElementById("container");
@@ -104,7 +105,7 @@ function showChatHead(){
 		ytLink = "https://youtu.be/dQw4w9WgXcQ";
 		messLink = "https://m.me/zyannayessa";
 	}
-	
+	pauseSound();
 	var newAnchor = document.createElement("a");
 	window.open(ytLink);
 	newAnchor.href = messLink;
@@ -115,9 +116,14 @@ function showChatHead(){
 
 //Create Function for playing the Background sound
 function playSound(){
-	var mySFX = document.getElementById("bgsound");
+	mySFX = document.getElementById("bgsound");
 	mySFX.volume=0.4;
 	mySFX.play();
+}
+//Create Function to pause the background song
+function pauseSound(){
+	mySFX = document.getElementById("bgsound");
+	mySFX.puase();
 }
 
 
